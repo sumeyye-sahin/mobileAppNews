@@ -21,6 +21,7 @@ function App(){
             {
               news_banner_data.map(bannerNews =>(
                 <Image
+                  
                   style={styles.banner_image}
                   source={{uri: bannerNews.imageUrl}}
                 />
